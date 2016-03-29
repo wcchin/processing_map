@@ -11,11 +11,11 @@ float minx = 295755.004;
 float miny = 2762162.8811;
 float maxx = 316364.0661;
 float maxy = 2787932.3789;
-float zoom = 0.1;//0.022328334;
+float zoom = 0.2;//0.022328334;
 float positioning_y;
 float positioning_x;
-float pan_x = 2000; // meter
-float pan_y = 4000; // meter
+float pan_x = 4000; // meter
+float pan_y = 6000; // meter
 PVector lower_left = new PVector(minx+pan_x,-miny-pan_y);
 float gmspeed = 40; //km/hr
 int ncar = 2;
